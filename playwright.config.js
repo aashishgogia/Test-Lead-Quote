@@ -9,7 +9,7 @@ module.exports = defineConfig({
   reporter: 'html',
   use: {
     browserName: 'chromium',
-    headless: false,
+    headless: true,
   },
   projects: [
     { name: 'Germany', use: { country: 'de' } },
